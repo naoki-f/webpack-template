@@ -1,0 +1,33 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+
+root = true
+
+
+[*]
+
+# Change these settings to your own preference
+
+# インデントはspace or tab
+indent_style = space
+# インデントの幅
+indent_size = 2
+
+# We recommend you to keep these unchanged
+# 改行コード
+end_of_line = lf
+# 文字コード
+charset = utf-8
+# 行末の空白文字削除か残すか
+trim_trailing_whitespace = true
+# 最後の行に空行入れるか入れないか
+insert_final_newline = true
+
+[*.html, *.ejs]
+# 最後の行に空行入れるか入れないか
+insert_final_newline = false
+
+[*.md]
+# 行末の空白文字削除か残すか
+trim_trailing_whitespace = false

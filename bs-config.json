@@ -1,0 +1,8 @@
+{
+  "port": 8000,
+  "injectChanges": "true",
+  "browser": "google chrome",
+  "files": ["./dist/**/*.{html,htm,css,js}"],
+  "watchOptions": { "ignored": "node_modules" },
+  "server": { "baseDir": "./dist" }
+}

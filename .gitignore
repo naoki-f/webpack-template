@@ -1,0 +1,36 @@
+# OS
+
+## Mac OS X
+.DS_store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+
+
+# Editor
+
+## Intellij
+.idea
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+
+## Sass & Compass
+.sass-cache
+
+
+## Node.js
+node_modules
+logs
+*.log
+.node-version
+
+
+## Project
+dist/
